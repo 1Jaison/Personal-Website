@@ -200,10 +200,11 @@ main {
 }
 
 .contact-photo {
-  width: 100%;
-  max-width: 465px;
+  width: 150px;
+  height: 178px;
+  object-fit: cover;
   display: block;
-  margin-bottom: 5px;
+  margin: 20px auto;
 }
 
 .contact-form {
