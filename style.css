@@ -99,6 +99,149 @@ main {
   font-size: 15px;
 }
 
+.page-header {
+  width: 90%;
+  max-width: 1000px;
+  margin: 30px auto 20px;
+}
+
+.page-header h2 {
+  font-size: 36px;
+  margin-bottom: 8px;
+}
+
+.page-header p {
+  font-size: 18px;
+}
+
+.card {
+  background: white;
+  width: 90%;
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.card h3 {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.card p,
+.card li {
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+.card ul {
+  padding-left: 20px;
+}
+
+.about-image-section {
+  text-align: center;
+}
+
+.about-photo {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+}
+
+.project-grid {
+  width: 90%;
+  max-width: 1000px;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.project-card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.project-card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.project-card h3 {
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+.project-card p {
+  margin-bottom: 10px;
+  line-height: 1.4;
+}
+
+.project-card a {
+  color: blue;
+}
+
+.contact-page {
+  max-width: 480px;
+  margin: 30px auto;
+  padding: 10px;
+}
+
+.contact-page h2 {
+  font-size: 42px;
+  margin-bottom: 5px;
+}
+
+.contact-page p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.contact-photo {
+  width: 100%;
+  max-width: 465px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  margin-top: 8px;
+  margin-bottom: 2px;
+  font-size: 16px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 6px;
+  font-size: 16px;
+  border: 1px solid gray;
+  background-color: white;
+  font-family: Georgia, serif;
+}
+
+.contact-form button {
+  margin-top: 5px;
+  padding: 6px;
+  font-size: 18px;
+  background-color: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-family: Georgia, serif;
+}
+
+.contact-form button:hover {
+  background-color: darkblue;
+}
+
 footer {
   background-color: #2e2e2e;
   color: white;
@@ -140,5 +283,13 @@ footer {
   .home-photo {
     width: 180px;
     height: auto;
+  }
+
+  .contact-page h2 {
+    font-size: 30px;
+  }
+
+  .page-header h2 {
+    font-size: 30px;
   }
 }
